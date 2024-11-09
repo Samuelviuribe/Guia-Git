@@ -1,0 +1,25 @@
+				<!-- Comandos imortantes de git-->
+
+$ ls // lista directorios/carpetas 
+
+$ pwd // Nos devuelve en donde nos encontramos actualmente 
+
+$ cd  // nos permite desplazarnos por ejemplo cd Documents nos llevaria a documentos 
+	//nos daremos cuentas por que la terminar se actualizo a la ubicacion actual
+	// y podemos verlos usando el comando anterior pws para ver la ubicacion
+
+$ cd .. // es un comando para regresar en la estructura de directorios (volver al anterior)
+
+
+/* podemos usar todos estos comandos simultaneamente para entrar en una caperta y ver su contenido*/
+
+
+$ cd Documents
+$ ls  // de esta forma
+
+
+$mkdir (nombre de directorio/carpeta) // este comando es para crear carpetas
+
+
+		<!-- Y ya dentro de este directorio podemos realizar acciones-->
+$git init 
