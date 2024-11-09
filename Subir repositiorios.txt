@@ -45,7 +45,7 @@ $ git commit //esta es otra forma completa de hacer un commit, si hiciste la con
 
 
 
-
+$ git branch // antes de hacer un branch debemos saber en que rama nos encontramos 
 
 
 
