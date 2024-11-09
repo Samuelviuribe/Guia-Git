@@ -20,6 +20,8 @@ $ ls  // de esta forma
 $rm nombre_de_tu_archivo //es utilizado para eliminar un archivo de tu carpeta o directorio
 
 
+$ mv nombre_de_tu_archivo cambio_al_nombre_de_tu_archivo // usado para cambiar el nombre de un archivo
+
 $mkdir (nombre de directorio/carpeta) // este comando es para crear carpetas
 
 
