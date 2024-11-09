@@ -12,7 +12,7 @@ $ git status // nos muestra el estado de lo que queremos subir al repositorio
 $ git add "./(nombre_de_tu_archivo)/extencion .txt .html etc" 
 
 /* git add envia los cambios en los que hemos trabajado de manera que pasan a una nueva etapa
-    llamada commit en donde los archivo estan casi listo pasa subirse
+    llamada commit en donde los archivo estan casi listo pasa subirse se le conoce como etapa de stage
 */
     
     git add . /* es usado para subir todos los archivos del repositorio
@@ -28,4 +28,5 @@ $ git add "./(nombre_de_tu_archivo)/extencion .txt .html etc"
     git add .txt //subira todos los archivos culla extencion sea .txt puede ser usada en cualquier extension
 
 
-$ git commit -m "Nombre del commit" // 
+$ git commit -m "Nombre del commit" // nombre del commit debe ser un nombre significativo, 
+                                    // algo que hayas añadido en el programa o algo relevante
