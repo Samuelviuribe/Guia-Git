@@ -8,6 +8,10 @@ archivo donde nos encontremos una vez ahí podemos iniciar
 $ git init // Se usa para crear un nuevo repositorio o reinicializar uno existente.
 
 $ git status // nos muestra el estado de lo que queremos subir al repositorio
+$ git status -s // es una version mas simplificada de git status
+
+$ git diff // nos permite ver en la terminal los cambios en la etapa que estemos
+$ git diff --staged // nos muestra los cambios que hicimos en la etapa de staged
 
 $ git add "./(nombre_de_tu_archivo)/extencion .txt .html etc" 
 
@@ -39,3 +43,11 @@ $ git commit //esta es otra forma completa de hacer un commit, si hiciste la con
              // y el te indicara donde ponder el nombre del archivo solo lo guardas y la terminal 
              // se actualiza automaticamente
 
+
+
+
+
+
+
+
+$ git log --oneline // nos muestra el historial de commits 
