@@ -1,0 +1,56 @@
+<!--======================[ Paso a paso para configurar git]=============================--> 
+
+https://git-scm.com/downloads // descargar para tu dispositivo 
+(es necesario tener una direccion de correo electronico para mas adelante)
+
+<!--======================[ Comandos]=============================--> 
+
+$ git --version   // es para ver la version de git instalada en tu dispositivo 
+		//normalmente ver un resultado indicaria que la instalacion es correcta
+
+
+$ git config --global user.name "Tu nombre de usuario"  // configura globalmente y no por proyecto
+						        // Puede ser cualquier nombre 
+				        		//y no necesariamente el nombre de github
+
+
+$ git config --global user.email vianasamuel828@gmail.com //configuracion inicial para el correo electronico
+
+
+$ git config --global core.editor "code --wait" //este codigo nos permite visualizar en el editor de texto 
+						// sin cerrar la terminal
+
+$ git config --global -e	// y con este comando podemos ver la configuracion global y al cerrarlo
+				// la terminal volvera a funcionar 
+
+
+
+$ git config --global core.autocrlf true // esto es muy importante al configurar 
+
+
+/*
+digamos estas trabajando en un sistema operativo windowns
+windos por defecto agrega palabras predefinidas para sus 
+saltos de linea cr y lf, mientras linux y mac solo lf 
+
+así que al subir archivo en un sistema operativo windowns
+git debera eliminar los caracteres especiales cr al subirlos
+y al descargar proyectos de linux o mac añadirlo
+
+lo mismo para los usuarios de ilnux y mac al no tener palabras
+predefinidas cr no git debe o deberia agregarlos al subir documentos 
+
+en ese caso se debe configurar diferente dependiendo del sistema operativo
+
+
+$ git config --global core.autocrlf true /*para windowns*/
+$ git config --global core.autocrlf input /*para linux o mac*/
+
+*/
+
+// y con eso ya estaria la configuracion inicial basica de git.
+
+
+
+
+
