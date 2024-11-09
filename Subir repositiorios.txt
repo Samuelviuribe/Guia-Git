@@ -1,0 +1,31 @@
+<-- Subir un repositorio-->
+
+/*
+Lo principal al subir un repositorio, es abrir la terminar en la direccion del
+archivo donde nos encontremos una vez ahí podemos iniciar 
+*/
+
+$ git init // Se usa para crear un nuevo repositorio o reinicializar uno existente.
+
+$ git status // nos muestra el estado de lo que queremos subir al repositorio
+
+$ git add "./(nombre_de_tu_archivo)/extencion .txt .html etc" 
+
+/* git add envia los cambios en los que hemos trabajado de manera que pasan a una nueva etapa
+    llamada commit en donde los archivo estan casi listo pasa subirse
+*/
+    
+    git add . /* es usado para subir todos los archivos del repositorio
+               No es una buena practica por que en algunas circunstacias
+              terminaremos agregando archivos que modificamos y que no 
+              quisimos subir o subir documentos o archivos binarios muy grandes
+              que hacen de nuestro proyecto uno mas grande */
+
+    git add nombre_de_tu_archivo /*este comando para subir escpecificamente los archivos que 
+                                 quieres subir deben ser separados por un espacio */
+    git  add nombre_de_tu_archivo1 nombre_de_tu_archivo2
+
+    git add .txt //subira todos los archivos culla extencion sea .txt puede ser usada en cualquier extension
+
+
+$ git commit -m "Nombre del commit" // 
