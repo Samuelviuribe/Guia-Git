@@ -14,4 +14,6 @@ ya sean contraseñas o datos que no deben ser comprometidos
 gitignore/
 
 .env
-node_modules/
+comandos importantes/
+
+// cualquier comando que quieras
