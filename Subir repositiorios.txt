@@ -27,6 +27,9 @@ $ git add "./(nombre_de_tu_archivo)/extencion .txt .html etc"
 
     git add .txt //subira todos los archivos culla extencion sea .txt puede ser usada en cualquier extension
 
+$ git restore nombre_de_tu_archivo // es para restaurar un arhivo eliminado de la etapa de stage 
+                                   // por si has borrado un archivo con el comando rm de la seccion
+                                   // de comando importantes 
 
 $ git commit -m "Nombre del commit" // nombre del commit debe ser un nombre significativo, 
                                     // algo que hayas añadido en el programa o algo relevante
@@ -35,3 +38,4 @@ $ git commit //esta es otra forma completa de hacer un commit, si hiciste la con
              // podra realizar comits directamente abriendo una ventana en tu editor de codigo
              // y el te indicara donde ponder el nombre del archivo solo lo guardas y la terminal 
              // se actualiza automaticamente
+
