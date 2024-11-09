@@ -1,0 +1,17 @@
+<--Funcionalidad de git ignore-->
+
+/*
+Basicamente git ignore es utilizado como un archivo
+especial para indicarle a git que archivos de tu 
+proyecto deberian ser ingorados y no subir a github
+ya sean contraseñas o datos que no deben ser comprometidos
+*/
+
+
+//para hacer esto crea un archivo llamado .gitignore y en el pon 
+// las extenciones que no quieras sean subidas al repositorio
+
+gitignore/
+
+.env
+node_modules/
