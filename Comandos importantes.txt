@@ -17,6 +17,8 @@ $ cd .. // es un comando para regresar en la estructura de directorios (volver a
 $ cd Documents
 $ ls  // de esta forma
 
+$rm nombre_de_tu_archivo //es utilizado para eliminar un archivo de tu carpeta o directorio
+
 
 $mkdir (nombre de directorio/carpeta) // este comando es para crear carpetas
 
