@@ -30,3 +30,8 @@ $ git add "./(nombre_de_tu_archivo)/extencion .txt .html etc"
 
 $ git commit -m "Nombre del commit" // nombre del commit debe ser un nombre significativo, 
                                     // algo que hayas añadido en el programa o algo relevante
+
+$ git commit //esta es otra forma completa de hacer un commit, si hiciste la configuracion 
+             // podra realizar comits directamente abriendo una ventana en tu editor de codigo
+             // y el te indicara donde ponder el nombre del archivo solo lo guardas y la terminal 
+             // se actualiza automaticamente
